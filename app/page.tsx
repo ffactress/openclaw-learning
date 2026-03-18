@@ -22,16 +22,16 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-dark rounded-lg overflow-hidden cursor-pointer hover:opacity-90 transition-opacity" onClick={() => setSelectedImage('/image1.jpeg')}>
+            <div className="bg-dark rounded-lg overflow-hidden cursor-pointer hover:opacity-90 transition-opacity" onClick={() => setSelectedImage('/openclaw-learning/image1.jpeg')}>
               <img 
-                src="/image1.jpeg" 
+                src="/openclaw-learning/image1.jpeg" 
                 alt="OpenClaw 功能展示 1" 
                 className="w-full h-auto object-cover"
               />
             </div>
-            <div className="bg-dark rounded-lg overflow-hidden cursor-pointer hover:opacity-90 transition-opacity" onClick={() => setSelectedImage('/image2.jpeg')}>
+            <div className="bg-dark rounded-lg overflow-hidden cursor-pointer hover:opacity-90 transition-opacity" onClick={() => setSelectedImage('/openclaw-learning/image2.jpeg')}>
               <img 
-                src="/image2.jpeg" 
+                src="/openclaw-learning/image2.jpeg" 
                 alt="OpenClaw 功能展示 2" 
                 className="w-full h-auto object-cover"
               />
