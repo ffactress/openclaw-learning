@@ -3,6 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   output: 'export',
+  basePath: '/openclaw-learning',
+  assetPrefix: '/openclaw-learning',
   images: {
     unoptimized: true,
   },
